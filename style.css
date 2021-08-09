@@ -1,0 +1,26 @@
+h2{
+    font-family: 'Gowun Dodum', sans-serif;
+    font-size: 3em;
+    font-style: italic;
+    border-bottom: 3px double pink;
+    border-right: 3px double pink;
+    width: 350px;
+    text-align: center;
+}
+#image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    width: 450px;
+    height: 300px;
+    margin:10px;
+    transition: 1s;
+}
+img:hover{
+    transform: scale(1.1);
+}
+body{
+    background-color: #f7f1e3;
+}
